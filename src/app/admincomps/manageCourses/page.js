@@ -46,7 +46,7 @@ const ManageCourses = ({ universityName, universityInitials }) => {
         fetchCourses();
      
     }
-  }, [universityId]);
+  }, [universityId, fetchCourses]);
 
   const togglePopup = (title, course = null) => {
     setPopupTitle(title);

@@ -27,7 +27,7 @@ const ManageStudents = ({ universityName, universityInitials }) => {
   useEffect(() => {
     fetchStudents();
     fetchCourses();
-  }, []);
+  }, [fetchCourses, fetchStudents]);
 
   // Function to fetch students from API
   const fetchStudents = async () => {

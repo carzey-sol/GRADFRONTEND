@@ -52,7 +52,7 @@ const Dashboard = ({ universityName, universityInitials }) => {
       });
 
     return () => clearTimeout(timeout);
-  }, []);
+  }, [API_URL]);
 
   useEffect(() => {
     // Use a delayed state to ensure spinner shows for at least 1 second

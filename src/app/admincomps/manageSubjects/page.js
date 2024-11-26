@@ -22,7 +22,7 @@ const ManageSubjects = ({ universityName, universityInitials }) => {
 
   useEffect(() => {
     fetchCourses();
-  }, []);
+  }, [fetchCourses]);
 
   // Fetching courses
   const fetchCourses = async () => {

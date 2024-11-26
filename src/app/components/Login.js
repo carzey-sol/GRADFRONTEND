@@ -85,7 +85,7 @@ const Login = () => {
     };
 
     checkAuthentication();
-  }, []);
+  }, [router]);
 
   return (
     <div>
